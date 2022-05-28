@@ -7,27 +7,45 @@ let instagram = 'https://www.instagram.com/buttermilkmoses/';
 
 //Arrays for command results
 about = [
-
+    "<br>",
+    '',
+    '',
+    '',
+    '',
+    "</br>"
 ];
 
 banner = [
-    
+    "<br>",
+    "</br>"    
 ];
 
 clear = [
-
+    "<br>",
+    "</br>"
 ];
 
 email = [
-
+    "<br>",
+    "</br>"
 ];
 
 help = [
-
+    "<br>",
+    'banner         Wanna see something cool?',
+    'about          Who is botshelo?',
+    'projects       View coding projects',
+    'email          Let\'s chat',
+    'socials        Display social links',
+    'help           See what to do',
+    'clear          Erase terminal',
+    "</br>"
 ];
 
 project = [
-    'Still currating...most projects are offline, on Github or Top Secret'
+    "<br>",
+    "Still currating...most projects are offline, on Github or Top Secret",
+    "</br>"    
 ];
 
 socials = [
