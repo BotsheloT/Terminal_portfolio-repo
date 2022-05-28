@@ -1,7 +1,8 @@
-body{
-    background-color: #000000;
-}
-
 p{
     color: #ffffff;
+}
+
+input{    
+    background: none;
+    border: none;      
 }
