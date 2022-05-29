@@ -1,7 +1,7 @@
-//variable for user input
-let cmd = document.querySelector('.cmd');
+//Variable for user input
+let cmd = document.querySelector('.cmd').innerHTML;
 
-//function for command entry
+//Function for command entry
 let command = (ucmd) => {
     switch(ucmd.toLowerCase()) {
         case'about':
@@ -19,6 +19,14 @@ let command = (ucmd) => {
         case'socials':
         socials;
         default:
-
+        }
     }
-}
+
+//Event listener for input 
+cmd.addEventListener('keyup', (e) =>{
+    if(e.keyCode === 13){
+        command(cmd)
+    }
+})
+
+//use of command

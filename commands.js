@@ -61,7 +61,7 @@ let getItems = (args) => {
     return items;
 }
 
-//helper command
+//Helper command function
 let helper = () => {
     document.querySelector('main').innerHTML =
     `<ul>
