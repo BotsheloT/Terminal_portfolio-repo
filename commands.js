@@ -51,3 +51,20 @@ project = [
 socials = [
 
 ];
+
+//Functions for each command
+let getItems = (args) => {
+    let items = '';
+    for(let i = 0; i < args.length; i++){
+        items += `<li>${args[i]}</li>`;
+    }
+    return items;
+}
+
+//helper command
+let helper = () => {
+    document.querySelector('main').innerHTML =
+    `<ul>
+        getItems(help);
+    </ul>`;
+}

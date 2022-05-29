@@ -13,7 +13,7 @@ let command = (ucmd) => {
         case'email':
         email;
         case'help':
-        help;
+        helper();
         case'projects':
         projects;
         case'socials':
