@@ -5,34 +5,35 @@ let cmd = document.querySelector('.cmd');
 let command = (ucmd) => {
     switch(ucmd.toLowerCase()) {
         case'about':
-        about;
-        ucmd.clear();
+            about;
+            ucmd.clear();
         break;
         case'banner':
-        banner;
-        ucmd.clear();
+            banner;
+            ucmd.clear();
         break;
         case'clear':
-        clear;
-        ucmd.clear();
+            clear;
+            ucmd.clear();
         break;
         case'email':
-        email;
-        ucmd.clear();
+            email;
+            ucmd.clear();
         break;
         case'help':
-        helper();
-        ucmd.clear();
+            helper();
+            ucmd.clear();
         break;
         case'projects':
-        projects;
-        ucmd.clear();
+            projects;
+            ucmd.clear();
         break;
         case'socials':
-        socials;
-        ucmd.clear();
+            socials;
+            ucmd.clear();
         break;
         default:
+
         }
     }
 
