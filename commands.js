@@ -21,6 +21,7 @@ banner = [
     "</br>"    
 ];
 
+//Clear command
 clear = [
     "<br>",
     "</br>"
