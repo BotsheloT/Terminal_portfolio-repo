@@ -15,6 +15,7 @@ about = [
     "</br>"
 ];
 
+//Banner command
 banner = [
     "<br>",
     "</br>"    
