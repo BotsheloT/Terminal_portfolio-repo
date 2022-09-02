@@ -27,11 +27,13 @@ clear = [
     "</br>"
 ];
 
+//Email Command
 email = [
     "<br>",
     "</br>"
 ];
 
+//Help Command
 help = [
     "<br>",
     'banner         Wanna see something cool?',
@@ -44,12 +46,14 @@ help = [
     "</br>"
 ];
 
-project = [
+//Projects command
+projects = [
     "<br>",
     "Still currating...most projects are offline, on Github or Top Secret",
     "</br>"    
 ];
 
+//Socials command
 socials = [
 
 ];
