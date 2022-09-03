@@ -20,6 +20,7 @@ let command = (ucmd) => {
             email;
             ucmd.clear();
         break;
+        //Help Commnad
         case'help':
             helper();
             ucmd.clear();
