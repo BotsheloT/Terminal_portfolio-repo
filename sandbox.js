@@ -25,10 +25,12 @@ let command = (ucmd) => {
             helper();
             ucmd.clear();
         break;
+        //Projects Command
         case'projects':
             projects;
             ucmd.clear();
         break;
+        //Socials Commnad
         case'socials':
             socials;
             ucmd.clear();
