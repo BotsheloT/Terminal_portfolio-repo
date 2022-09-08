@@ -1,3 +1,5 @@
+/*Command input file*/
+
 //Variable for user input
 let cmd = document.querySelector('.cmd');
 
